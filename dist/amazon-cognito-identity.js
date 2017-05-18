@@ -2217,10 +2217,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	      ClientId: this.pool.getClientId(),
 	      Username: this.username
 	    }, function (err) {
-	      if (err, result) {
+	      if (err) {
 	        return callback(err, null);
 	      }
-	      return callback(null, result);
+	      return callback(null, 'SUCCESS');
 	    });
 	  };
 
